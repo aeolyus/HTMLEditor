@@ -5,7 +5,7 @@ function compile(){
 	var result=document.getElementById("result").contentWindow.document;
 	document.body.onkeyup=function(){
 		result.open();
-		result.writeln(html.value+"<style>"+css.value+"</script>"+"<script>"+js.value+"</script>");
+		result.writeln(html.value+"<style>"+css.value+"</style>"+"<script>"+js.value+"</script>");
 		result.close();
 	}
 }
